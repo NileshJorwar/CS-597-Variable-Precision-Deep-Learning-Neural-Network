@@ -1,1 +1,2 @@
-# CS 597 - Deep Learning Neural Network
+# CS 597 - Variable Precision Deep Learning Neural Network
+We proposed the C++ and Python deep learning neural network models to recognize handwritten digits and tested these models over other datasets as well. Models accept input image pixels as low precision data types to check the performance and speedup of CPU when ran using different node settings at hidden layer. We also built multithreaded model to perform the matrix multiplication at hidden and output layer. The use of AVX instructions in model for matrix multiplication gave us 10X speedup when applied O3 flags in C++ model. Our work shows the comparable results on all the three models we developed and greatly improved accuracy over the earlier proposed models.
